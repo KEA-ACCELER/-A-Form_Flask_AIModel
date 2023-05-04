@@ -1,0 +1,8 @@
+version: '3'
+services:
+  model:
+    build: ./
+    environment:
+      - OPENAI_API_KEY=
+    ports:
+      - "5000:5000"
